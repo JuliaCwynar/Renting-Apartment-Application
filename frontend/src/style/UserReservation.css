@@ -1,0 +1,64 @@
+.booking {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .reservation--row {
+    display: flex;
+  }
+  
+  .reservation--image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin-right: 20px;
+  }
+  
+  .reservation--image,
+  .reservation--row {
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    width: 100%;
+  }
+  
+  .cancel-buttons {
+    margin-top: 10px;
+  }
+  
+  .cancel-buttons input,
+  .cancel-buttons label {
+    margin-right: 10px;
+  }
+  
+  .user--review {
+    margin-top: 20px;
+  }
+  
+  .user--review form {
+    margin-top: 20px;
+  }
+  
+  .user--review textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .range-slider {
+    margin-top: 10px;
+  }
+  
+  .range-slider-thumb {
+    background-color: #3182ce;
+  }
+
+  .check{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 8% 8%;
+  }

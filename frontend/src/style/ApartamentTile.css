@@ -1,0 +1,66 @@
+.apartment--tile {
+    border: 1px grey solid;
+    margin: 1vw;
+    width: auto; 
+    height: 25vw; 
+
+}
+
+.apartment--tile h2 {
+    font-size: 17px;
+}
+
+.apartment--image {
+    width: 100%;
+    height: 15vw; 
+    overflow: hidden;
+}
+
+.apartment--image img {
+    width: 100%;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.single--apartament {
+    justify-content: center;
+    gap: 3vw;
+    margin: 3vw;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.apartament--booking form {
+    padding: 1vw;
+    border: 1px solid black;
+}
+
+.apartament--booking form button {
+    margin: 1vw;
+}
+
+.apartament--booking h2 {
+    margin-bottom: 2vw;
+    font-weight: 600;
+    font-size: 1.5vw;
+}
+
+.reviews h2 {
+    margin: 1vw;
+    font-size: 2vw;
+}
+
+.reviews h3, .reviews h4 {
+    font-size: 1vw;
+}
+
+.review {
+    margin: 1vw;
+    padding: 1vw;
+    border: 1px solid black;
+}
+
+.booking--date {
+    display: grid;
+    grid-template-columns: auto;
+}
